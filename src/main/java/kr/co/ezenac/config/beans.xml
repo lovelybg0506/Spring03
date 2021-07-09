@@ -4,8 +4,8 @@
 		xsi:schemaLocation="http://www.springframework.org/schema/beans
 						http://www.springframework.org/schema/beans/spring-beans.xsd">
 
- <bean class="kr.co.ezenac.beans.HelloWorldKo" id="hello"></bean>
- <bean class="kr.co.ezenac.beans.HelloWorldEn" id="hello2"></bean>
-
+ <bean id="hello" class="kr.co.ezenac.beans.HelloWorldKo"></bean>
+ <bean id="hello2" class="kr.co.ezenac.beans.HelloWorldEn"></bean>
+ <!-- 이런식으로 bean태그에 설정 -->
 
 </beans>
